@@ -211,6 +211,15 @@ Drug Discovery Tasks
 
 ✅ Molecular Embedding Generation
 
+✅ BindingDB Integration
+
+✅ Drug-Target Dataset Creation
+
+✅ Affinity Dataset Cleaning
+
+✅ 21,525 Drug-Target Interactions
+
+
 ### Currently Working On
 
 🚧 BindingDB Integration
@@ -218,6 +227,8 @@ Drug Discovery Tasks
 🚧 Drug-Target Interaction Dataset Pipeline
 
 🚧 Large-Scale Molecular Dataset Processing
+
+🚧 Molecular Representation Learning
 
 ### Next Milestone
 
