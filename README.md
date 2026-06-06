@@ -74,3 +74,6 @@ The long-term goal is to create a foundation model for drug discovery that can a
 ## Status
 
 🚧 Phase 1 — Dataset Exploration
+✅ Repository Initialized
+🚧 Learning Drug Discovery Fundamentals
+🚧 Exploring Molecular Representations
