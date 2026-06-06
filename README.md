@@ -206,6 +206,14 @@ Drug Discovery Tasks
 * Creation of Curated Drug-Target Dataset
 * 21,525 High-Quality Interactions
 
+### v0.7
+
+- Binding Affinity Prediction
+- pKi Regression Model
+- Graph Neural Network Training
+- First Drug Activity Prediction Model
+- Evaluation on BindingDB
+
 ---
 
 ## Current Progress
@@ -236,6 +244,12 @@ Drug Discovery Tasks
 
 ✅ 21,525 Curated Drug-Target Interactions
 
+✅ Molecular Affinity Prediction
+
+✅ GNN Regression Model
+
+✅ pKi Prediction
+
 ### Currently Working On
 
 🚧 Molecular Affinity Prediction
@@ -243,6 +257,8 @@ Drug Discovery Tasks
 🚧 Graph-Based Drug Activity Modeling
 
 🚧 Molecular Representation Learning
+
+🚧 Advanced Molecular Features
 
 ### Next Milestone
 
