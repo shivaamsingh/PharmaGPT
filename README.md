@@ -262,7 +262,7 @@ Drug Discovery Tasks
 
 ### Next Milestone
 
-🎯 v0.7 — GNN-Based pKi Prediction
+🎯 v0.8 — Molecular Search Engine
 
 ---
 
