@@ -214,6 +214,14 @@ Drug Discovery Tasks
 - First Drug Activity Prediction Model
 - Evaluation on BindingDB
 
+### v0.8
+
+- Molecular Embedding Extraction
+- FAISS Vector Database
+- Drug Similarity Search
+- Embedding Retrieval System
+- Molecular Search Engine
+
 ---
 
 ## Current Progress
@@ -250,6 +258,15 @@ Drug Discovery Tasks
 
 ✅ pKi Prediction
 
+✅ Binding Affinity Prediction
+
+✅ Molecular Embeddings
+
+✅ Vector Database
+
+✅ Similarity Search
+
+
 ### Currently Working On
 
 🚧 Molecular Affinity Prediction
@@ -259,6 +276,8 @@ Drug Discovery Tasks
 🚧 Molecular Representation Learning
 
 🚧 Advanced Molecular Features
+
+🚧 Protein Representation Learning
 
 ### Next Milestone
 
