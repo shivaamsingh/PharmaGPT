@@ -16,7 +16,7 @@ The long-term goal is to create a foundation model for drug discovery that assis
 
 Drug discovery is one of the most challenging scientific problems in the world.
 
-Developing a new drug can take years of research and billions of dollars. Modern AI techniques such as Graph Neural Networks, Transformers, and Foundation Models have the potential to significantly accelerate this process.
+Developing a new drug can take years of research and billions of dollars. Modern AI techniques such as Graph Neural Networks (GNNs), Transformers, and Foundation Models have the potential to significantly accelerate this process.
 
 PharmaGPT aims to combine molecular intelligence, protein understanding, and biomedical knowledge into a unified AI system for drug discovery.
 
@@ -109,20 +109,19 @@ Drug Discovery Tasks
 ### v0.1
 
 * Repository Initialization
-* Project Roadmap
-* Development Environment Setup
+* Project Setup
 
 ### v0.2
 
 * Drug Discovery Fundamentals
-* SMILES Introduction
 * RDKit Exploration
+* SMILES Understanding
 
 ### v0.3
 
 * Molecular Graph Construction
+* Graph Visualization
 * Atom and Bond Extraction
-* Molecular Graph Visualization
 
 ### v0.4
 
@@ -133,30 +132,32 @@ Drug Discovery Tasks
 ### v0.5
 
 * BindingDB Integration
-* Drug-Target Interaction Dataset Pipeline
-* Large-Scale Molecular Dataset Processing
+* Drug-Target Dataset Analysis
+* Dataset Exploration
 
 ### v0.6
 
-* Molecular Embedding Training
-* Representation Learning
-* Dataset Preparation for Drug Discovery Tasks
+* BindingDB Cleaning Pipeline
+* Drug-Target Interaction Dataset Creation
+* pKi Transformation
+* 21,525 Curated Interactions
 
 ### v0.7
 
-* Drug Similarity Search
-* Embedding Retrieval System
-* Molecular Search Engine
+* Molecular Affinity Prediction
+* GNN Regression Model
+* pKi Prediction
 
 ### v0.8
 
-* Protein Encoder
-* Protein Representation Learning
+* Drug Similarity Search
+* Embedding Retrieval Engine
+* Molecular Search System
 
 ### v0.9
 
-* Drug-Protein Interaction Prediction
-* Binding Affinity Prediction
+* Protein Encoder
+* Drug-Protein Interaction Modeling
 
 ### v1.0
 
@@ -182,14 +183,28 @@ Drug Discovery Tasks
 ### v0.3
 
 * Molecular Graph Construction
-* Atom and Bond Extraction
 * Graph Visualization using NetworkX
+* Atom and Bond Extraction
 
 ### v0.4
 
 * Molecular Graph Neural Network (GNN)
 * Molecular Embedding Generation
 * PyTorch Geometric Integration
+
+### v0.5
+
+* BindingDB Dataset Integration
+* Dataset Exploration
+* Drug-Target Interaction Analysis
+
+### v0.6
+
+* Dataset Cleaning Pipeline
+* Ki Value Processing
+* pKi Transformation
+* Creation of Curated Drug-Target Dataset
+* 21,525 High-Quality Interactions
 
 ---
 
@@ -207,38 +222,50 @@ Drug Discovery Tasks
 
 ✅ Molecular Graph Visualization
 
-✅ Molecular Graph Neural Network Encoder
+✅ Molecular GNN Encoder
 
 ✅ Molecular Embedding Generation
 
 ✅ BindingDB Integration
 
-✅ Drug-Target Dataset Creation
+✅ Drug-Target Dataset Analysis
 
-✅ Affinity Dataset Cleaning
+✅ Dataset Cleaning Pipeline
 
-✅ 21,525 Drug-Target Interactions
+✅ pKi Transformation
 
+✅ 21,525 Curated Drug-Target Interactions
 
 ### Currently Working On
 
-🚧 BindingDB Integration
+🚧 Molecular Affinity Prediction
 
-🚧 Drug-Target Interaction Dataset Pipeline
-
-🚧 Large-Scale Molecular Dataset Processing
+🚧 Graph-Based Drug Activity Modeling
 
 🚧 Molecular Representation Learning
 
 ### Next Milestone
 
-🎯 v0.5 — Real-World Drug Discovery Dataset Integration
+🎯 v0.7 — GNN-Based pKi Prediction
+
+---
+
+## Dataset Statistics
+
+### BindingDB Curated Dataset
+
+* Original Dataset: 86,108 interactions
+* Clean Dataset: 21,525 interactions
+* Target Variable: pKi
+* Input: Molecular Structure (SMILES)
+* Output: Binding Affinity (pKi)
 
 ---
 
 ## Future Goals
 
-* Foundation Model for Molecules
+* Molecular Foundation Model
+* Protein Foundation Model
 * Drug Repurposing Engine
 * Toxicity Prediction System
 * Biomedical Research Assistant
@@ -249,6 +276,6 @@ Drug Discovery Tasks
 
 ## Status
 
-🚧 Phase 2 — Molecular Representation Learning
+🚧 Phase 3 — Molecular Affinity Prediction
 
-Current Version: v0.4
+Current Version: v0.6
